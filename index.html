@@ -113,7 +113,7 @@
    				})
    			}
 
-   			$.getJSON('data.php', function(json){
+   			$.getJSON('data.json', function(json){
    				$.each(json, function(i,item){
    					if (item.isPage) {
    						h5.addPage(item.name,item.text);
